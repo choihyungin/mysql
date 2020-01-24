@@ -74,5 +74,3 @@ SELECT * FROM EMP WHERE SAL <
 UPDATE 제품 SET 제품명 = '쿵떡파이' WHERE 제품명 = '통큰파이';
 SELECT * FROM 제품;
 ROLLBACK;
-
-
