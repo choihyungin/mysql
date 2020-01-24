@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mysqlfwd:ForwardConfigurationSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mysqlfwd="http://exerd.tomato.com/mysql/forward">
+  <configurations name="Latest Settings" delimitedIdentifier="Backtick( ` )" createView="true" createTrigger="true" createTable="true" addPrimaryKeyConstraint="true" addCheckConstraint="true" addForeignKeyConstraint="true" createForeignKeyIndex="true" createUniqueIndex="true" createNonUniqueIndex="true" showLogicalNameToDescription="true">
+    <userDefineProperties>ALTERNATIVE_COMMENT</userDefineProperties>
+  </configurations>
+  <configurations name="Create (Default Settings)" useOwnerPrefix="true" delimitedIdentifier="Backtick( ` )" createView="true" createTrigger="true" createTable="true" addPrimaryKeyConstraint="true" addCheckConstraint="true" addForeignKeyConstraint="true" createForeignKeyIndex="true" createUniqueIndex="true" createNonUniqueIndex="true" showLogicalNameToDescription="true">
+    <userDefineProperties>ALTERNATIVE_COMMENT</userDefineProperties>
+  </configurations>
+  <configurations name="Create (Include Physical Properties)" useOwnerPrefix="true" delimitedIdentifier="Backtick( ` )" useSchemaPhysicalProperties="true" createView="true" createTrigger="true" createTable="true" useTablePhysicalProperties="true" addPrimaryKeyConstraint="true" addCheckConstraint="true" addForeignKeyConstraint="true" createForeignKeyIndex="true" useConstraintPhysicalProperties="true" createUniqueIndex="true" createNonUniqueIndex="true" useIndexPhysicalProperties="true" showLogicalNameToDescription="true">
+    <userDefineProperties>ALTERNATIVE_COMMENT</userDefineProperties>
+  </configurations>
+  <configurations name="Drop" useOwnerPrefix="true" delimitedIdentifier="Backtick( ` )" dropView="true" dropTrigger="true" dropTable="true" dropPrimaryKeyConstraint="true" dropCheckConstraint="true" dropForeignKeyConstraint="true" dropForeignKeyIndex="true" dropUniqueIndex="true" dropNonUniqueIndex="true" showLogicalNameToDescription="true"/>
+  <configurations name="Select All" useOwnerPrefix="true" delimitedIdentifier="Backtick( ` )" createUserDefinedType="true" dropUserDefinedType="true" createDatabase="true" createLogfileGroup="true" dropLogfileGroup="true" createTablespace="true" dropTablespace="true" dropDatabase="true" createSchema="true" dropSchema="true" useSchemaPhysicalProperties="true" createView="true" dropView="true" createTrigger="true" dropTrigger="true" createTable="true" dropTable="true" useTablePhysicalProperties="true" useUserDefinedType="true" addPrimaryKeyConstraint="true" dropPrimaryKeyConstraint="true" addCheckConstraint="true" dropCheckConstraint="true" addForeignKeyConstraint="true" createForeignKeyIndex="true" dropForeignKeyConstraint="true" dropForeignKeyIndex="true" useConstraintPhysicalProperties="true" createUniqueIndex="true" dropUniqueIndex="true" createNonUniqueIndex="true" dropNonUniqueIndex="true" useIndexPhysicalProperties="true" showLogicalNameToDescription="true">
+    <userDefineProperties>ALTERNATIVE_COMMENT</userDefineProperties>
+  </configurations>
+  <configurations name="Deselect All" showLogicalNameToDescription="true"/>
+</mysqlfwd:ForwardConfigurationSet>
